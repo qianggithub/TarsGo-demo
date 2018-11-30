@@ -1,0 +1,10 @@
+module TestApp {
+    interface Hello{
+        int test();
+        int testHello(string sReq, out string sRsp);
+    };
+
+    interface SayHello {
+        int echoHello(string name, out string greeting);
+    };
+};
